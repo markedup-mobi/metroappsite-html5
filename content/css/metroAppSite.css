@@ -1,0 +1,13 @@
+﻿#surfacedCarousel {
+    background-image: url(../img/surface3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 512px;
+    width: 780px;
+}
+
+.myCarousel {
+    height: 383px;
+    width: 679px;
+    margin: 49px auto auto;
+}
