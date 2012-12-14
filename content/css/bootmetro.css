@@ -7842,7 +7842,7 @@ Progress control. */
   display: block;
   float: left;
   width: 100%;
-  height: 200px;
+  height: auto;
   padding: 20px;
   margin: 5px;
   overflow: hidden;
