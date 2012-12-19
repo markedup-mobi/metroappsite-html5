@@ -12,6 +12,12 @@ MetroAppSite includes:
 * Includes privacy policy template, which is required to publish in the Windows Store.
 * Integration points with [UserVoice][4] and [Google Analytics][2] to help you better manage your app's presence online.
 
+### Example MetroAppSites
+Here are some sample sites that are currently using MetroAppSite
+
+* [Relay App][9]
+* [Default MetroAppSite Configuration][10]
+
 ## Configuration Instructions
 
 Fork and clone this repostiory, and then:
@@ -36,3 +42,5 @@ This template is based on [BootMetro][1].
 [6]: http://twitter.github.com/bootstrap/
 [7]: http://www.privacychoice.org/policymaker/
 [8]: https://markedup.com/
+[9]: http://relay-3.apphb.com/
+[10]: http://metroappsite.apphb.com/
