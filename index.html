@@ -134,16 +134,21 @@
     <script type="text/javascript" src="scripts/google-code-prettify/prettify.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
  
-    <footer class="win-commandlayout navbar-fixed-bottom">
+     <footer class="win-commandlayout navbar-fixed-bottom win-ui-light">
         <div class="container">
             <div class="row">
                 <div class="span6 align-left">
-                    <a href="Index.html" class="win-command">
+                    <a href="index.html" class="win-command">
                         <span class="win-commandimage  icon-home-4 win-commandring"></span>
                         <span class="win-label">Home</span>
                     </a>
                     <hr class="win-command" />
-                    <a href="Privacy.html" class="win-command">
+                    <!-- [7]: Change this to the URL of your app on the Windows Store -->
+                    <a href="https://github.com/markedup-mobi/metroappsite-html5" class="win-command">
+                        <span class="win-commandimage win-commandring">&#xE01D;</span>
+                        <span class="win-label">Download</span>
+                    </a>
+                    <a href="privacy.html" class="win-command">
                         <span class="win-commandimage win-commandring  icon-key-stroke"></span>
                         <span class="win-label">Privacy</span>
                     </a>
@@ -152,9 +157,10 @@
         </div>
     </footer>
 
-<script type="text/javascript">
+    <!-- [4]: Replace this with your own Google Analytics information -->
+    <script type="text/javascript">
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-3182578-6']);
+        _gaq.push(['_setAccount', 'YOUR GOOGLE ANALYTICS ACCOUNT ID HERE']);
         _gaq.push(['_trackPageview']);
         (function () {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -163,14 +169,17 @@
         })();
     </script>
 
+
+    <!-- [4]: Replace this with your own UserVoice information -->
     <script type="text/javascript">
         var uvOptions = {};
         (function () {
             var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-            uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/OyA9nXQ55Xl4wAK8TbZg.js';
+            uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/UHvAZgKqBv1lTxoSODXliw.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
         })();
     </script>
+
      <script type="text/javascript">
         $("document").ready(function () {
             $('#bootFlipView').carousel({ interval: 3500 });
