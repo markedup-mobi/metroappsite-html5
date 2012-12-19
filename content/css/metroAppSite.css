@@ -11,3 +11,7 @@
     width: 679px;
     margin: 49px auto auto;
 }
+
+.metro-responsive-tiles .no-click {
+    cursor:default !important;
+}
