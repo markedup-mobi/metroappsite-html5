@@ -12,9 +12,10 @@
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
 
-    <title>WinStore Web Template</title>
+    <!-- [1]:  Add your own title for your site -->
+    <title>MetroAppSite</title>
 
-    <meta name="robots" content="index, nofollow">
+    <meta name="robots" content="index">
     <meta name="description" content="Windows Store App Website Template" />
     <meta name="keywords" content="markedup, modern ui, modern-ui, metro, metroui, metro-ui, metro ui, windows 8, metro style, bootstrap, framework, web framework, css, html" />
     <meta name="author" content="Markedup" />
@@ -26,12 +27,9 @@
     <link rel="stylesheet" type="text/css" href="content/css/bootmetro-icons.css">
     <link rel="stylesheet" type="text/css" href="content/css/bootmetro.css">
     <link rel="stylesheet" type="text/css" href="content/css/bootmetro-responsive.css">
-    <link rel="stylesheet" type="text/css" href="content/css/bootmetro-ui-light.css">
-<!--    <link href="content/css/metro-ui-dark.css" rel="stylesheet" />-->
+<!--     <link rel="stylesheet" type="text/css" href="content/css/bootmetro-ui-light.css"> -->
+    <link href="content/css/metro-ui-dark.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="content/css/metroAppSite.css">
-    <!--[if IE 7]>
-   <link rel="stylesheet" type="text/css" href="assets/css/bootmetro-icons-ie7.css">
-   <![endif]-->
 
     <!--  these two css are to use only for documentation -->
     <link rel="stylesheet" type="text/css" href="content/css/demo.css">
@@ -55,29 +53,33 @@
     <!--[if lt IE 7]>
    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
    <![endif]-->
-    <header id="hero" class="">
+     <header id="hero" class="">
         <div class="jumbotron masthead">
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="inner span4">
-                        <h1>Website Title </h1>
-                        <p>Simple HTML, CSS, and Javascript for web apps looks like Windows store application.</p>
+                        <!-- [1]:  Add your own marketing text (title, subtitle, features, testimonials, etc...) -->
+                        <h1>MetroAppSite</h1>
+                        <p>A simple HTML, CSS, and Javascript website template to help promote Windows Store applications.</p>
                         <p>
-                            <a class="btn btn-large btn-primary" href="https://github.com/markedup/webtemp/master">Download Now
-                           <i class="icon-arrow-right-7"></i>
+                            <a class="btn btn-large btn-primary" href="https://github.com/markedup-mobi/metroappsite-html5">Download Now
+                                <i class="icon-arrow-right-7"></i>
                             </a>
                             <br />
                             <span class="label label-success">Latest version: 0.1</span>
-
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis nibh a mi mollis ac malesuada ligula tincidunt. 
-        Praesent pulvinar mi in massa bibendum sit amet ullamcorper magna aliquet. Aliquam sed dolor ac mi elementum aliquam non vitae elit. 
-        Pellentesque habitant morbi tristique .
-
-                        </p>
+                        <h3>Features</h3>
+                        <ul>
+                            <li>Metro UI, branding, and Microsoft Surface<sup>TM</sup> smooth screenshot slider.</li>
+                            <li>Fully configurable branding and content.</li>
+                            <li>Customizeable and extensible UI built with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> and <a href="http://aozora.github.com/bootmetro/">BootMetro</a></li>
+                            <li>Includes privacy policy template, which is required to publish in the Windows Store.</li>
+                            <li>Integrates with <a href="http://uservoice.com/">UserVoice</a> and Google Analytics to help you manage your app's presence online.</li>
+                            <li><a href="https://github.com/markedup-mobi/metroappsite-html5">Download from Github</a></li>
+                        </ul>
                     </div>
                     <div class="span4" id="surfacedCarousel">
+                        <!-- [2]: add your own carousel images -->
                         <div id="bootFlipView" class="myCarousel carousel flipview slide ">
                             <div class="carousel-inner">
                                 <div class="item active">
@@ -98,46 +100,55 @@
             </div>
         </div>
     </header>
-
     <div id="home-tiles" class="container-fluid metro-responsive-tiles">
         <div class="row-fluid">
-            <a class="span4 tile wide text" href="#">
-                <div class="text-header">More Description</div>
-                <div class="metro tile text5">
+            <div class="span4 tile wide text no-click">
+                <h3>Testimonials</h3>
+                <div class="metro tile text5 no-click">
                     <blockquote>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis nibh a mi mollis ac malesuada ligula tincidunt. 
-        Praesent pulvinar mi in massa bibendum sit amet ullamcorper magna aliquet. Aliquam sed dolor ac mi elementum aliquam non vitae elit. 
-        Pellentesque habitant morbi tristique .   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis nibh a mi mollis ac malesuada ligula tincidunt. 
-        Praesent pulvinar mi in massa bibendum sit amet ullamcorper magna aliquet. Aliquam sed dolor ac mi elementum aliquam non vitae elit. 
-        Pellentesque habitant morbi tristique .
+                        MetroAppSite helped me get an amazing, professional-looking template up and running for my Windows Store app in minutes!
                     </blockquote>
+                    - Aaron Stannard, Ex-Microsoftie
                 </div>
-            </a>
+                <div class="metro tile text5 no-click">
+                    <blockquote>
+                       I ran out of material for stock testimonials, but you get the idea!
+                    </blockquote>
+                    - Cenk Ayberkin, MarkedUp Developer
+                </div>
+            </div>
             <div class="span4 offset1">
-                <h1>Tweets about MetroAppSite </h1>
-                <a class="twitter-timeline" href="https://twitter.com/CenkAyberkin" data-widget-id="274181815911202816">Tweets by CenkAyberkin</a>
-                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                <h3>Latest</h3>
+                <!--
+                    [3]: Go to https://dev.twitter.com/docs/embedded-timelines to get an embedded timeline for your own app   
+                 -->
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/MarkedUpMobi" data-widget-id="281103187757375488">Tweets by @MarkedUpMobi</a>
+                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
             </div>
         </div>
     </div>
-
     <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write("<script src='scripts/jquery-1.8.3.min.js'>\x3C/script>")</script>
 
     <script type="text/javascript" src="scripts/google-code-prettify/prettify.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
  
-    <footer class="win-commandlayout navbar-fixed-bottom">
+     <footer class="win-commandlayout navbar-fixed-bottom win-ui-light">
         <div class="container">
             <div class="row">
                 <div class="span6 align-left">
-                    <a href="Index.html" class="win-command">
+                    <a href="index.html" class="win-command">
                         <span class="win-commandimage  icon-home-4 win-commandring"></span>
                         <span class="win-label">Home</span>
                     </a>
                     <hr class="win-command" />
-                    <a href="Privacy.html" class="win-command">
+                    <!-- [7]: Change this to the URL of your app on the Windows Store -->
+                    <a href="https://github.com/markedup-mobi/metroappsite-html5" class="win-command">
+                        <span class="win-commandimage win-commandring">&#xE01D;</span>
+                        <span class="win-label">Download</span>
+                    </a>
+                    <a href="privacy.html" class="win-command">
                         <span class="win-commandimage win-commandring  icon-key-stroke"></span>
                         <span class="win-label">Privacy</span>
                     </a>
@@ -145,10 +156,17 @@
             </div>
         </div>
     </footer>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <p><a href="https://github.com/markedup-mobi/metroappsite-html5">MetroAppSite HTML5</a> by <a href="https://markedup.com/">MarkedUp Analytics for Windows 8</a></p>
+        </div>
+    </div>
 
-<script type="text/javascript">
+
+    <!-- [4]: Replace this with your own Google Analytics information -->
+    <script type="text/javascript">
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-3182578-6']);
+        _gaq.push(['_setAccount', 'YOUR GOOGLE ANALYTICS ACCOUNT ID HERE']);
         _gaq.push(['_trackPageview']);
         (function () {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -157,14 +175,17 @@
         })();
     </script>
 
+
+    <!-- [4]: Replace this with your own UserVoice information -->
     <script type="text/javascript">
         var uvOptions = {};
         (function () {
             var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
-            uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/OyA9nXQ55Xl4wAK8TbZg.js';
+            uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/UHvAZgKqBv1lTxoSODXliw.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
         })();
     </script>
+
      <script type="text/javascript">
         $("document").ready(function () {
             $('#bootFlipView').carousel({ interval: 3500 });
